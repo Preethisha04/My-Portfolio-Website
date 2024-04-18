@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: neu;
+    src: url("./assets/Neu-Regular.otf");
+}
+html {
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width:100%;
+    height:fit-content;
+    min-height:100vh;
+    color:#eeeeee;
+}
+.navbar{
+    width:40%;
+    height: 3.5rem;
+    background-color: #151920;
+    border:2px solid #aeaeae50;
+    border-radius:50px;
+    padding: 10px;
+    position:sticky;
+    top:50px;
+    margin:0 auto;
+
+    display: flex;
+    
+    justify-content:space-between ;
+    align-items: center;
+}
+.navbar img{
+    width:35px;
+}
+ul{
+    display: flex;
+    gap:2rem;
+    
+}
+ul li{
+    list-style-type:none ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main-content{
+    width:100%;
+}
+.hero-section{
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    font-family: neu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.main-heading{
+    font-size: 2.25rem;
+}
+.sub-heading{
+    font-size: 0.9rem;
+}
+.btn{
+    background-color: #f05a22;
+    border:0px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+.about-section{
+    width:100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-content{
+    width: 60%;
+    background-color: #151920;
+    border:2px solid #aeaeae50;
+    border-radius:35px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.project-section{
+    width: 100%;
+    height: 145vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.project-card-container{
+    width: 60%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap:2%
+}
+.project-card{
+    width:48%;
+    background-color: #151920;
+    padding: 20px;
+    border:2px solid #aeaeae50;
+    border-radius: 15px;
+    margin-bottom: 16px;
+}
+.project-card p{
+    margin-bottom: 15px;
+}
+.project-card a{
+    text-decoration: none;
+    color: #f05a22;
+}
